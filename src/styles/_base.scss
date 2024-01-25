@@ -1,0 +1,15 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #ece7e5;
+}
+.container {
+  max-width: calc(1400px + 40px);
+  width: 100%;
+  margin-inline: auto;
+
+  @include desktop-small {
+    max-width: calc(1160px + 40px);
+    margin-inline: auto;
+  }
+}
+
